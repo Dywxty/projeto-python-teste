@@ -8,9 +8,9 @@ app = Flask(__name__)
 def index():
     return "<h1>Hello, World!</h1>"
 
-@app.route("/about")
-def about():
-    return "<h1>Sobre a página e sua criadora:</h1><p>Esta é uma página simples criada com Flask para um teste em uma aula de python, no curso de Desenvolvimento de Sistemas</p>"
+@app.route("/curso")
+def curso():
+    return "<h1>Curso:</h1><br><p>Desenvolvimento de Sistemas</p>"
 
 if __name__ == "__main__":
     app.run()
